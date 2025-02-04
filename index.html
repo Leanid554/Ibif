@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./assets/Logo.svg" alt="Logo">
+                </div>
+
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="right_navbar" id="nav-links">
+                    <p data-scroll="about">O nas</p>
+                    <p data-scroll="offer">Usługi</p>
+                    <p data-scroll="contacts">Kontakt</p>
+                    <button data-scroll="form" class="navbar_button">
+                        DARMOWA WYCENA
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main_offer ">
+            <div class="main_offer_container container">
+                <div class="main_offer_left ">
+                    <h1>Strony internetowe</h1>
+                    <h3>Zapytaj o naszą ofertę e-commerce i rozwijaj swój biznes w sieci.</h3>
+                        <button class="button_main_offer">BEZPŁATNA WYCENA</button>
+                </div>
+                <div class="main_offer_right_img">
+                    <img class="img_adobe" src="./assets/AdobeStock_455146184 1.svg" alt="">
+                    <div class="main_offer_right_arrows"> 
+                        <div class="main_offer_right_arrows_border arrow1_rot1">
+                            <img src="./assets/arrow1.svg" alt="">
+                        </div>
+                        <div class="main_offer_right_arrows_border arrow1_rot">
+                            <img src="./assets/arrow1.svg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+        </div>
+
+        <div class="about" id="about">
+           <div class="about_container container">
+            <div class="about_left">
+                <img src="./assets/Rectangle 16.svg" alt="">
+            </div>
+            <div class="about_right">
+                <div class="line_container">
+                    <div class="line"></div>
+                    <h3>O nas</h3>
+                </div>
+                
+               
+                <h1>Jesteśmy agencją, która sprosta Twoim wymaganiom!</h1>
+                <p>Zajmujemy się wszelkimi działaniami w dziedzinie promowania stron www w sieci,
+                     zakładania prostych wizytówek i rozbudowanych portali oraz nadzorowania ich rozwoju,
+                      funkcjonowania i treści, jakie się na nich pojawiają. Lubelska agencja marketingowa 
+                      IBIF doskonale sprawdza się przy współpracy z firmami z całego kraju, komunikując 
+                      się z klientami na wiele sposobów.</p>
+                <button class="about_left_button">
+                    SKONTAKTUJ SIĘ
+                </button>      
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="offer">
+        <div class="container">
+
+       <div class="services_padding">
+        <div class="line_container_services">
+            <div class="line_services"></div>
+            <h3>Usługi</h3>
+        </div>
+        <h2 class="h2_services">
+            Co możemy Ci zaoferować?
+        </h2>
+       </div>
+      
+    </div>
+        <div class="services_cards container">
+            <div class="card">
+                <div class="card-image">
+                  <img src="./assets/Rectangle 18.svg" alt="Strony www">
+                </div>
+                <div class="card-content">
+                  <h3>Strony www</h3>
+                  <p>
+                    Budujemy przejrzyste, nowoczesne i estetyczne serwisy WWW 
+                    dostosowane do urządzeń mobilnych.
+                  </p>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card-image">
+                  <img src="./assets/Rectangle 19.svg" alt="Sklepy internetowe">
+                </div>
+                <div class="card-content">
+                  <h3>Sklepy internetowe</h3>
+                  <p>
+                    Funkcjonalne, użyteczne i responsywne sklepy to nasza specjalność.
+                  </p>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card-image">
+                  <img src="./assets/Rectangle 20.svg" alt="Pozycjonowanie">
+                </div>
+                <div class="card-content">
+                  <h3>Pozycjonowanie</h3>
+                  <p>
+                    Skutecznie przyciągamy uwagę Twoich potencjalnych klientów.
+                  </p>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+
+    <div class="form" id="form">
+        <img class="vector_form1" src="./assets/Vector (13).svg" alt="Vector">
+        <img class="vector_form2" src="./assets/Vector (11).svg" alt="Vector">
+        <img class="vector_form3" src="./assets/Vector (12).svg" alt="Vector">
+
+        
+        <div class="contact-form">
+            <h2>Formularz kontaktowy</h2>
+            <p>Napisz do nas, z chęcią odpowiemy na każde pytanie!</p>
+            
+            <form>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="Wpisz swój adres e-mail" required />
+          
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" placeholder="Wpisz swój numer telefonu" required />
+          
+              <label for="topic">Temat</label>
+              <select id="topic">
+                <option value="" disabled selected>Wybierz z opcji</option>
+                <option value="1">Zapytanie</option>
+                <option value="2">Wsparcie</option>
+                <option value="3">Inne</option>
+              </select>
+          
+              <label for="message">Wiadomość</label>
+              <textarea id="message"  placeholder="Treść wiadomości"></textarea>
+              <div class="contact_form_checkbox">
+                <div class="custom-checkbox" tabindex="0" role="checkbox" aria-checked="false"></div>
+                <label for="privacy">Akceptuję politykę prywatności.</label>
+              </div>
+              
+              
+          
+              <button type="submit" class="submit-button">Wyślij wiadomość</button>
+            </form>
+          </div>
+          
+ 
+</div>
+    </main>
+ <footer class="container footer" id="contacts">
+    <img class="logo_footer" src="./assets/Logo.svg" alt="">
+    <div  class="footer_contacts">
+        <div class="phone-info">
+            <h3>Telefon</h3>
+            <div class="blue-dot"></div>
+            <p>505-551-616</p>
+          </div>
+        <div class="phone-info">
+            <h3>E-mail</h3>
+            <div class="blue-dot"></div>
+            <p>biuro@ibif.pl</p>
+          </div>
+          <div class="circle-button" onclick="scrollToTop()">
+            <img src="./assets/arrow2.svg" alt="Scroll to top">
+          </div>
+          
+          
+          
+    </div>
+ </footer>
+ <footer class="secondary_footer">
+    <p>realizacja: ibif.pl</p>
+ </footer>
+    <script src="./index.js">
+ </script>
+</body>
+</html>
