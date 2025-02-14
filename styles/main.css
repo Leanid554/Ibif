@@ -40,6 +40,8 @@ body {
 
 .right_navbar {
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   display: flex;
   gap: 60px;
   font-size: 18px;
